@@ -6,11 +6,11 @@
 #    By: mraasvel <mraasvel@student.codam.nl>         +#+                      #
 #                                                    +#+                       #
 #    Created: 2020/11/25 18:39:35 by mraasvel      #+#    #+#                  #
-#    Updated: 2020/11/26 19:13:45 by mraasvel      ########   odam.nl          #
+#    Updated: 2020/11/27 19:43:48 by mraasvel      ########   odam.nl          #
 #                                                                              #
 # **************************************************************************** #
 
-NAME = a.out
+NAME = calc.exe
 SRC = $(shell find $(SRCDIR) -name "*.c" -exec basename {} \;)
 OBJ = $(addprefix $(OBJDIR)/, $(SRC:.c=.o))
 

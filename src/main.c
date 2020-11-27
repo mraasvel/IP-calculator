@@ -6,7 +6,7 @@
 /*   By: mraasvel <mraasvel@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2020/11/24 11:38:57 by mraasvel      #+#    #+#                 */
-/*   Updated: 2020/11/26 22:14:59 by mraasvel      ########   odam.nl         */
+/*   Updated: 2020/11/27 19:43:22 by mraasvel      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,7 +38,7 @@ int	mask_only(void)
 	netmask = get_netmask();
 	if (netmask.n1 > 255)
 		return (-1);
-	ft_printf("\nNetmask: |%u.%u.%u.%u| = |%u|\t|", netmask.n1, netmask.n2, netmask.n3, netmask.n4, netmask.netmask);
+	ft_printf("\nNetmask:\t|%u.%u.%u.%u| = |%u| |", netmask.n1, netmask.n2, netmask.n3, netmask.n4, netmask.netmask);
 	ft_putllu_base(netmask.n1, 2, 8, 0);
 	ft_printf(".");
 	ft_putllu_base(netmask.n2, 2, 8, 0);
@@ -48,9 +48,9 @@ int	mask_only(void)
 	ft_putllu_base(netmask.n4, 2, 8, 0);
 	ft_printf("|\n");
 	if (netmask.netmask == 32)
-		ft_printf("Hosts/net: |1|\n");
+		ft_printf("Hosts/net:\t|1|\n");
 	else
-		ft_printf("Hosts/net: |%.0f|\n", ft_pow(2, 32 - netmask.netmask) - 2);
+		ft_printf("Hosts/net:\t|%.0f|\n", ft_pow(2, 32 - netmask.netmask) - 2);
 }
 
 /*
