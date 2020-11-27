@@ -1,4 +1,5 @@
 **Don't look at the code, it sucks.**
+
 Output format copied from http://jodies.de/ipcalc
 
 **USAGE**
