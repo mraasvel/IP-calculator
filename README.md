@@ -12,16 +12,17 @@ Input:
 
 Output for IP calculator:
 
-	Address:		n1.n2.n3.n4		binary rep of address.
-	Netmask:		n1.n2.n3.n4		binary rep of NM.
-	Wildcard:		n1.n2.n3.n4		binary rep of WC.
+	Address:	n1.n2.n3.n4		[binary representation]
+	Netmask:	n1.n2.n3.n4		[binary representation]
+	Wildcard:	n1.n2.n3.n4		[binary representation]
 	=>
-	Network:	n1.n2.n3.n4		binary rep of NW (class type)
-	Broadcast:	n1.n2.n3.n4		binary rep of BC
-	Hostmin:	n1.n2.n3.n4		binary rep of HMin
-	Hostmax:	n1.n2.n3.n4		binary rep of HMax
+	Network:	n1.n2.n3.n4		[binary representation]
+	Broadcast:	n1.n2.n3.n4		[binary representation]
+	Hostmin:	n1.n2.n3.n4		[binary representation]
+	Hostmax:	n1.n2.n3.n4		[binary representation]
 	Hosts/net:	[Amount] - (2 ^ (32 - netmask) - 1).
 
 Output for just netmask:
+
 	Netmask:	[Dotted Decimal] [Binary] [CIDR]
 	Hosts/net:	[Amount]
