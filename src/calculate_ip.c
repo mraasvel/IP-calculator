@@ -153,7 +153,7 @@ int	calculate_ip(void)
 	wildcard = get_wildcard(netmask);
 	ft_printf("\n");
 	print_basic_address(ip, netmask, wildcard);
-	printf("=>\n");
+	ft_printf("=>\n");
 	network_address = print_network_address(ip, netmask);
 	broadcast_address = print_broadcast_address(network_address, wildcard);
 	print_hostrange(network_address, broadcast_address, netmask.netmask);
