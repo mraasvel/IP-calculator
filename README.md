@@ -1,3 +1,6 @@
+**Don't look at the code, it sucks.**
+Output format copied from http://jodies.de/ipcalc
+
 **USAGE**
 
 1. make to create executable "calc.exe"
@@ -16,7 +19,7 @@ Output for IP calculator:
 	Netmask:	n1.n2.n3.n4		[binary representation]
 	Wildcard:	n1.n2.n3.n4		[binary representation]
 	=>
-	Network:	n1.n2.n3.n4		[binary representation]
+	Network:	n1.n2.n3.n4/NM	[binary representation] (Class type)
 	Broadcast:	n1.n2.n3.n4		[binary representation]
 	Hostmin:	n1.n2.n3.n4		[binary representation]
 	Hostmax:	n1.n2.n3.n4		[binary representation]

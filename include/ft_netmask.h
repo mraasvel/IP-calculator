@@ -6,7 +6,7 @@
 /*   By: mraasvel <mraasvel@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2020/11/24 11:44:56 by mraasvel      #+#    #+#                 */
-/*   Updated: 2020/11/26 21:39:31 by mraasvel      ########   odam.nl         */
+/*   Updated: 2020/11/27 19:53:00 by mraasvel      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,9 +22,9 @@ typedef struct	s_ipv4
 	unsigned int	netmask;
 }				t_ipv4;
 
-int		print_ip(t_ipv4 ip, FILE* stream);
-t_ipv4	get_ip(void);
-t_ipv4	get_netmask(void);
-int		calculate_ip(void);
+int				print_ip(t_ipv4 ip, FILE *stream);
+t_ipv4			get_ip(void);
+t_ipv4			get_netmask(void);
+int				calculate_ip(void);
 
 #endif
